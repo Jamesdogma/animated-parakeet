@@ -1,2 +1,3 @@
 Scope=https://www googleapis.com/auth/user openid
 Openid.realm=
+// SPDX-License-Identifier: MIT
