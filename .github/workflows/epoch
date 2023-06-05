@@ -16,3 +16,4 @@ commit.                  commit
 rm.                      rm
 delete move.             mv
 pull requests + Labs
+tree-sitter-stack-graphs-java = "0.2.0"
