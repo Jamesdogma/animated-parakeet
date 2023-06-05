@@ -9,3 +9,10 @@ gitsun lone [sun-repo-url]--stdlayout
 trunk;branches.tags.sun clone
 T[trunk] 6[branches] +[tags]
 gitsun d-commit gitsun release
+SUN Command.           Git Command
+status.                 status
+add.                     add
+commit.                  commit
+rm.                      rm
+delete move.             mv
+pull requests + Labs
