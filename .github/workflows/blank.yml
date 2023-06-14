@@ -34,3 +34,15 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+conda env create -f environment.yml
+conda activate iti
+pip install git+https://github.com/davidbau/baukit
+pip install git+https://github.com/google-research/bleurt
+pip install git+https://github.com/sylinrl/TruthfulQA
+python -m ipykernel install --user --name iti --display-name "iti"
+mkdir -p validation/results_dump/answer_dump
+mkdir -p validation/results_dump/summary_dump
+mkdir -p validation/splits
+mkdir features
+git clone https://github.com/sylinrl/TruthfulQA.git
