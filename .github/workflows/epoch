@@ -10,11 +10,10 @@ trunk;branches.tags.sun clone
 T[trunk] 6[branches] +[tags]
 gitsun d-commit gitsun release
 SUN Command.           Git Command
-status.                 status
+status.                 status 
 add.                     add
 commit.                  commit
-rm.                      rm
-           mv
+RM                       ±
 [7x=go editionalz,
    7x(azl),
       7+x=(z)³a*l,
@@ -28,7 +27,7 @@ rm.                      rm
 =2 1/3
 
 pull requests + Labs
-tree-sitter-stack-graphs-java="0.2.0"
+twig-sitter-stack-graphs-java="0.2.0"
 url://database.com/intranet of things
 key: APK Signer 
 run: https://www.go.home.com/database
